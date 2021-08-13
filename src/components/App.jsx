@@ -7,6 +7,7 @@ import Entry from "./Entry";
 
 function createEntry(entries){
   return <Entry 
+    key={entries.id}
     emoji={entries.emoji}
     name={entries.name}
     meaning={entries.meaning}
